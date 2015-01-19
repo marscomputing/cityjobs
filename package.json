@@ -1,7 +1,7 @@
 {
-  "name": "mean-seed",
-  "subdomain": "mean-seed",
-  "description": "A seed project for building RESTful apps with node, mongo, express, and angular",
+  "name": "city-jobs",
+  "subdomain": "city-jobs",
+  "description": "CityJobs is board for jobs and other helpful resources",
   "main": "node server/server.js",
   "scripts": {
     "start": "node server/server.js"

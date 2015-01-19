@@ -1,10 +1,11 @@
 {
-  "name": "mean-seed",
+  "name": "city-jobs",
   "version": "0.0.0",
   "authors": [
+    "Mohammad Azad <itsmazad@gmail.com>",
     "Phil Puleo <puleo.phil@gmail.com>"
   ],
-  "description": "A seed project for building web applications with mongoDB, express, angularJS, and node.js.",
+  "description": "CityJobs is board for jobs and other helpful resources.",
   "license": "MIT",
   "private": true,
   "ignore": [

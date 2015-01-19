@@ -1,5 +1,5 @@
 /**
- * MEAN Seed Gruntfile - Defines server and build tasks for the web application.
+ * Gruntfile - Defines server and build tasks for the web application.
  */
 
 module.exports = function (grunt) {
@@ -35,7 +35,7 @@ module.exports = function (grunt) {
             deploy: {
                 options: {
                     archive: '<%= paths.dist %>/compressed/archive.tgz',
-                    mode: 'tgz',
+                    mode: 'tgz'
                 },
                 files: [
                     { src: ['<%= paths.dist %>/**', '!<%= paths.dist %>/compressed/**'], dest: '<%= paths.dist %>' }
@@ -86,7 +86,7 @@ module.exports = function (grunt) {
                         'app/**',
                         'config/**',
                         'logs/',
-                        'server.js',
+                        'server.js'
                     ]
                 },
                 { // Root Files
@@ -94,7 +94,7 @@ module.exports = function (grunt) {
                     dot: true,
                     dest: '<%= paths.dist %>',
                     src: [
-                        'package.json',
+                        'package.json'
                     ]
                 }]
             },
@@ -181,7 +181,7 @@ module.exports = function (grunt) {
                 }
             }
         },
-        paths: appPaths,
+        paths: appPaths
     });
 
     /*
